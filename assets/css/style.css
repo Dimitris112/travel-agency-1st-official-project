@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
+/* Asterisk selector to override the default styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* General */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {}
+
+main {
+    /* Pushes the footer all the way down */
+    flex: 1 0 auto;
+
+}
+
+footer {}
