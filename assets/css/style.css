@@ -13,14 +13,29 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
+    color: gray;
 }
 
-header {}
+/* Header */
+header {
+    background: white;
+    padding: 0 1rem;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    box-shadow: 0 2px 2px gray;
+}
 
+h1 {
+    font-family: 'Lato', sans-serif;
+}
+
+/* Main content*/
 main {
     /* Pushes the footer all the way down */
     flex: 1 0 auto;
 
 }
 
+/* Footer */
 footer {}
