@@ -38,6 +38,16 @@ h1 {
     color: hsl(5, 9%, 28%);
 }
 
+#menu {
+    list-style-type: none;
+    font-size: 1.2em;
+    letter-spacing: 4px;
+}
+
+.active {
+    border-bottom: 1px solid black;
+}
+
 /* Main content*/
 main {
     /* Pushes the footer all the way down */
