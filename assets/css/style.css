@@ -44,6 +44,10 @@ h1 {
     color: #e44d26;
 }
 
+#logo {
+    color: #ff7f50;
+}
+
 #menu {
     list-style-type: none;
     font-size: 1.2em;
