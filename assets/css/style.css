@@ -13,7 +13,8 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
-    color: gray;
+    color: #333;
+    background-color: #f7f7f7;
 }
 
 /* Header */
