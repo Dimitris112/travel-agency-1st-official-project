@@ -147,6 +147,36 @@ main {
     color: #6c757d;
 }
 
+/* Contact */
+#contact {
+    text-align: center;
+    color: #6c757d;
+}
+
+.contact-boxes-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.contact-box-left,
+.contact-box-right,
+.contact-box-center {
+    flex: 1 0 100%;
+    max-width: 300px;
+}
+
+.contact-box-left h3,
+.contact-box-right h3,
+.contact-box-center h3 {
+    margin-bottom: 15px;
+}
+
+.contact-box-right {
+    text-align: right;
+}
+
 /* Footer */
 footer {
     background-color: hsla(0, 0%, 23%, 0.47);
