@@ -210,6 +210,11 @@ main {
 
 }
 
+/* Map section */
+#map-wrapper {
+    margin-top: 40px;
+}
+
 /* Footer */
 footer {
     background-color: hsla(0, 0%, 23%, 0.47);
