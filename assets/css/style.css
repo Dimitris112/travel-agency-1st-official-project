@@ -116,6 +116,37 @@ main {
     margin: 10px 0;
 }
 
+/* Testimonials */
+#testimonials {
+    text-align: center;
+    margin: 40px 0;
+    background-color: #343a40;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.testimonial {
+    max-width: 600px;
+    margin: 0 auto 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+}
+
+#testimonials h2 {
+    color: rgb(209, 203, 227);
+}
+
+.testimonial p {
+    margin-bottom: 10px;
+}
+
+.testimonial .author {
+    font-style: italic;
+    color: #6c757d;
+}
+
 /* Footer */
 footer {
     background-color: hsla(0, 0%, 23%, 0.47);
