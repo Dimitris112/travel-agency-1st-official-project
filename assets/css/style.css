@@ -177,6 +177,30 @@ main {
     text-align: right;
 }
 
+.contact-box-container table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.contact-boxes-container table,
+.contact-boxes-container th,
+.contact-boxes-container td {
+    border: 1px solid #ced4da;
+}
+
+.contact-boxes-container th,
+.contact-boxes-container td {
+    padding: 8px;
+    text-align: center;
+}
+
+.contact-boxes-container th {
+    /* Might change the colors later on*/
+    background-color: #007bff;
+    color: white;
+}
+
 /* Footer */
 footer {
     background-color: hsla(0, 0%, 23%, 0.47);
