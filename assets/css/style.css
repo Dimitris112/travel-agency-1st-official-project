@@ -30,7 +30,7 @@ header {
 header a {
     text-decoration: none;
     color: inherit;
-    transition: color 0.5 ease;
+    transition: color 0.5s ease;
 }
 
 header a:hover {
@@ -217,8 +217,9 @@ main {
 
 /* Footer */
 footer {
-    background-color: hsla(0, 0%, 23%, 0.47);
+    background-color: #e44d26;
     color: white;
+    text-align: center;
 }
 
 #social-network {
