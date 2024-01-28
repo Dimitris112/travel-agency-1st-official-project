@@ -135,6 +135,7 @@ main {
     background-color: #f8f9fa;
 }
 
+/* Some bg colors for each testimonial */
 .testimonial:nth-child(1) {
     background-color: #f8f9fa;
 }
