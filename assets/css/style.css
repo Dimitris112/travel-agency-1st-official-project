@@ -134,6 +134,35 @@ main {
     background-color: #f8f9fa;
 }
 
+.testimonial:nth-child(1) {
+    background-color: #f8f9fa;
+}
+
+.testimonial:nth-child(2) {
+    background-color: #e9ecef;
+
+}
+
+.testimonial:nth-child(3) {
+    background-color: #d1ecf1;
+
+}
+
+.testimonial:nth-child(4) {
+    background-color: #d4edda;
+
+}
+
+.testimonial:nth-child(5) {
+    background-color: #ffe5d0;
+
+}
+
+.testimonial:nth-child(6) {
+    background-color: #f3d9f2;
+
+}
+
 #testimonials h2 {
     color: rgb(209, 203, 227);
 }
