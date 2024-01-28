@@ -215,6 +215,10 @@ main {
     margin-top: 40px;
 }
 
+#map-wrapper h3 {
+    display: none;
+}
+
 /* Footer */
 footer {
     background-color: #e44d26;
