@@ -125,6 +125,7 @@ main {
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: url("../images/bg-img-form/pexels-bg1.png") no-repeat center center / cover;
 }
 
 #signup-form h2 {
