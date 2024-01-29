@@ -39,7 +39,7 @@
     <main>
         <section id="signup-form">
             <h2 class="text-center">Signup Form</h2>
-            <form action="#" method="post">
+            <form action="https://formdump.codeinstitute.net" method="post">
                 <label for="fullname">Full Name:</label>
                 <input type="text" id="fullname" name="fullname" required>
 
@@ -53,8 +53,18 @@
                 <input type="password" id="confirm-password" name="confirm-password" required>
 
                 <label for="birthdate">Birthdate:</label>
-                <input type="date" id="birthdate" name="birthdate" required>
+                <input type="date" id="birthdate" name="birthdate" required><br>
+                <label>Travel Preference:</label>
+                <div class="radio-group">
+                    <input type="radio" id="europe" name="travel-preference" value="europe" required>
+                    <label for="europe">Europe</label>
 
+                    <input type="radio" id="international" name="travel-preference" value="international">
+                    <label for="international">International</label>
+
+                    <input type="radio" id="both" name="travel-preference" value="both">
+                    <label for="both">Both</label>
+                </div>
                 <button type="submit">Signup</button>
             </form>
         </section>
