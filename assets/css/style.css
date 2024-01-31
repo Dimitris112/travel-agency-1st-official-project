@@ -359,6 +359,27 @@ main {
     display: none;
 }
 
+/* Gallery */
+#image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px auto;
+}
+
+.image {
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+
+}
+
+.image:hover {
+    transform: scale(1.05);
+}
+
 /* Footer */
 footer {
     background-color: #e44d26;
