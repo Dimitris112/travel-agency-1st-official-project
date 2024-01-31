@@ -126,6 +126,11 @@ main {
     margin: 10px 0;
 }
 
+.destination p {
+    margin: 0 10px 15px;
+    color: #555;
+}
+
 /* Signup Form*/
 #signup-form {
     max-width: 600px;
