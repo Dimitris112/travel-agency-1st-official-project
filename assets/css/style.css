@@ -390,19 +390,32 @@ main {
     flex-wrap: wrap;
     justify-content: space-around;
     margin: 20px auto;
+    line-height: 0;
+
 }
 
 .image {
+    flex: 0 0 calc(33.333% - 20px);
     margin: 10px;
     overflow: hidden;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
-
 }
 
 .image:hover {
     transform: scale(1.05);
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.image:hover img {
+    transform: scale(1.2);
 }
 
 /* Footer */
@@ -427,7 +440,12 @@ footer {
 }
 
 /* Media query: large or landscape phones (576px+) */
-@media screen and (min-width: 576px) {}
+@media screen and (min-width: 576px) {
+    #image-gallery {
+        column-count: 3;
+        column-gap: 20px;
+    }
+}
 
 /* Tablets and larger (768px+) */
 @media screen and (min-width: 768px) {}
