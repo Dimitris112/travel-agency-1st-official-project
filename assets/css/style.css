@@ -5,7 +5,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-
 }
 
 /* General */
@@ -26,12 +25,15 @@ header {
     width: 100%;
     z-index: 99;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+
 }
 
 header a {
     text-decoration: none;
     color: inherit;
     transition: color 0.5s ease;
+
 }
 
 header a:hover {
@@ -60,6 +62,31 @@ h1 {
     border-bottom: 1px solid black;
 }
 
+/* Navbar */
+nav {
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+    top: 100%;
+}
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
 /* Main content*/
 main {
     /* Pushes the footer all the way down */
@@ -71,7 +98,6 @@ main {
 
 /* Hero Section */
 #hero {
-
     padding: 80px;
     text-align: center;
     color: #e44d26;
@@ -81,7 +107,6 @@ main {
 #hero h2 {
     margin-bottom: 20px;
     font-size: 3em;
-
 }
 
 #hero p {
@@ -120,7 +145,6 @@ main {
     border-radius: 20px;
 }
 
-
 .destination {
     display: inline-block;
     text-align: left;
@@ -134,7 +158,6 @@ main {
     border-radius: 15px;
 }
 
-
 .destination:hover {
     transform: scale(1.05);
     box-shadow: 0 6px 12px rgba(238, 156, 115, 0.3);
@@ -146,11 +169,11 @@ main {
     border-bottom: 2px solid #e44d26;
 }
 
-
 .destination h3 {
     font-size: 2em;
     margin-bottom: 10px;
     color: #e44d26;
+    text-align: center;
 }
 
 .destination p {
@@ -158,7 +181,6 @@ main {
     color: white;
     text-align: center;
 }
-
 
 .destination a {
     display: block;
@@ -238,27 +260,31 @@ main {
 
 /* Signup Form */
 #signup {
-    background-image: url("../images/bg-img-form/pexels-bg1.png");
+    background: url("../images-webp/bg-img-form-webp/pexels-bg1.webp");
     background-size: cover;
     background-position: 75%;
     padding: 20px 10% 0 10%;
     flex-grow: 1;
+
+}
+
+#signup h2 {
+    color: rgba(255, 140, 0, 0.7);
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    text-align: center;
+    padding: 30px;
+
 }
 
 #signup-form {
     color: #ffffff;
-    background-color: rgba(60, 60, 60, 0.6);
-    padding: 30px;
-    max-width: 600px;
+    padding: 70px;
     margin: 20px auto;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
+    background-color: rgba(60, 60, 60, 0.6);
+    font-size: 1.3em;
 
-#signup-form h2 {
-    color: #fafafa;
-    margin-bottom: 20px;
-    font-size: 1.8em;
 }
 
 #signup-form label {
@@ -269,13 +295,14 @@ main {
 }
 
 #signup-form input {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #fafafa;
-    border-radius: 5px;
     background: transparent;
     color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    padding: 0 5px;
 }
 
 .radio-group {
@@ -283,10 +310,7 @@ main {
     justify-content: space-between;
     margin-bottom: 15px;
     color: #fafafa;
-}
-
-.radio-group label {
-    margin-right: 10px;
+    gap: 10px;
 }
 
 .submit-btn {
@@ -344,7 +368,6 @@ main {
     border-radius: 15px;
     background-color: #fff;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-
 }
 
 .contact-box-left h3,
@@ -387,7 +410,6 @@ main {
 .contact-box-center:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
-
 }
 
 .contact-box-left,
@@ -402,9 +424,8 @@ main {
     text-align: center;
 }
 
-
 /* Newsletter */
-#newsletter {
+#newsletter-section {
     margin: 40px auto;
     padding: 30px;
     max-width: 600px;
@@ -414,23 +435,27 @@ main {
     color: white;
 }
 
-#newsletter label {
+#newsletter-section h3 {
+    display: none;
+}
+
+#newsletter-section label {
     display: block;
     margin-bottom: 20px;
     font-size: 1.8em;
 }
 
-#newsletter input[type="email"] {
+#newsletter-section input[type="email"] {
     padding: 15px;
     width: 80%;
     border: 1px solid #fff;
     border-radius: 5px;
     margin-bottom: 20px;
-    box-sizing: border-box;
     display: inline-block;
+    text-align: center;
 }
 
-#newsletter button {
+#newsletter-section button {
     padding: 15px 30px;
     background-color: #fff;
     color: #e44d26;
@@ -439,10 +464,9 @@ main {
     font-size: 1.8em;
     cursor: pointer;
     display: inline-block;
-
 }
 
-#newsletter button:hover {
+#newsletter-section button:hover {
     background-color: #ff6347;
     color: white;
 }
@@ -460,21 +484,28 @@ main {
 #image-gallery {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     margin: 20px auto;
     line-height: 0;
+    padding-top: 25px;
+}
+
+#image-gallery h3 {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #e44d26;
+    font-size: 1.8em;
+    margin: 10px 0;
+    text-align: center;
 }
 
 .image {
-    margin: 10px;
+    width: 45%;
+    margin: 5px;
     overflow: hidden;
     border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease-in-out;
-}
-
-.image:hover {
-    transform: scale(1.05);
+    cursor: pointer;
 }
 
 .image img {
@@ -489,10 +520,15 @@ main {
 }
 
 /* Footer */
+
 footer {
     background-color: #e44d26;
+}
+
+footer p {
     color: white;
     text-align: center;
+    font-size: 1.3em;
 }
 
 #social-network {
@@ -501,10 +537,55 @@ footer {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
+
 }
 
-#social-networks i {
+#social-network i {
     font-size: 160%;
     padding: 5%;
-    color: #3a3a3a;
+    color: rgb(48, 48, 237);
+}
+
+/* Media query: large or landscape phones (576px+) */
+@media screen and (min-width: 576px) {
+    #image-gallery {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
+
+/* Media query: tablets and larger (768px+) */
+@media screen and (min-width: 768px) {
+
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu>li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+}
+
+/* Main */
+main {
+    margin-top: 80px;
 }
