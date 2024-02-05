@@ -24,7 +24,9 @@
         <a href="index.html">
             <h1 id="logo"> 101 Travelling Agency</h1>
         </a>
-
+        <!-- Navbar Toggle Checkbox -->
+        <input type="checkbox" id="navbar-toggle" class="navbar-toggle-checkbox">
+        <label for="navbar-toggle" class="navbar-toggle-btn">X</label>
         <!-- Navigation -->
         <nav>
             <ul id="menu">
@@ -37,35 +39,36 @@
     </header>
     <!-- Main content -->
     <main>
-        <section id="signup-form">
-            <h2 class="text-center">Signup Form</h2>
-            <form action="https://formdump.codeinstitute.net" method="post">
+        <!-- Signup -->
+        <section id="signup">
+            <h2 class="text-center">Become a Member!<br><i class="fa-solid fa-user-plus"></i></h2>
+            <form action="https://formdump.codeinstitute.net" method="post" id="signup-form">
                 <label for="fullname">Full Name:</label>
                 <input type="text" id="fullname" name="fullname" required>
 
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required>
 
-                <label for="password">Password:</label>
-                <input type="password" id="password" name="password" required>
-
-                <label for="confirm-password">Confirm Password:</label>
-                <input type="password" id="confirm-password" name="confirm-password" required>
+                <label for="password">Password (6 characters minimum):</label>
+                <input type="password" id="password" name="password" minlength="6" required>
 
                 <label for="birthdate">Birthdate:</label>
-                <input type="date" id="birthdate" name="birthdate" required><br>
+                <input type="date" id="birthdate" name="birthdate" required>
+
+
                 <label>Travel Preference:</label>
                 <div class="radio-group">
                     <input type="radio" id="europe" name="travel-preference" value="europe" required>
                     <label for="europe">Europe</label>
 
-                    <input type="radio" id="international" name="travel-preference" value="international">
+                    <input type="radio" id="international" name="travel-preference" value="international" required>
                     <label for="international">International</label>
 
-                    <input type="radio" id="both" name="travel-preference" value="both">
+                    <input type="radio" id="both" name="travel-preference" value="both" required>
                     <label for="both">Both</label>
                 </div>
-                <button type="submit">Signup</button>
+
+                <button type="submit" class="submit-btn">Signup</button>
             </form>
         </section>
     </main>
