@@ -205,6 +205,8 @@ main {
     background-color: coral;
     padding: 40px;
     border-radius: 15px;
+
+
 }
 
 .testimonial {
@@ -552,6 +554,7 @@ footer p {
     * {
         text-align: center;
         font-size: 0.9em;
+
     }
 
     header {
