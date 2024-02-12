@@ -484,22 +484,6 @@ main {
     background-color: #0056b3;
 }
 
-.contact-box-center button {
-    display: block;
-    margin: 20px auto;
-    padding: 10px 20px;
-    background-color: #e44d26;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    font-size: 1.2em;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.contact-box-center button:hover {
-    background-color: #c9302c;
-}
 
 /* Newsletter */
 #newsletter-section {
