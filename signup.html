@@ -39,7 +39,7 @@
     <main>
         <!-- Signup -->
         <section id="signup">
-            <video src="assets/bg-video/bg-signup-video.mp4" autoplay loop muted>
+            <video src="assets/bg-video/video.mp4" autoplay loop muted>
             </video>
             <h2 class="text-center">Become a Member!<br><i class="fa-solid fa-user-plus"></i></h2>
             <form action="https://formdump.codeinstitute.net" method="post" id="signup-form">
@@ -57,23 +57,21 @@
                 <label for="birthdate">Birthdate:
                     <input type="date" id="birthdate" name="birthdate" required>
                 </label>
-                <label>Travel Preference:
-                    <div class="radio-group">
-                        <label for="europe">Europe
-                            <input type="radio" id="europe" name="travel-preference" value="europe" required>
-                        </label>
 
-                        <label for="international">International
-                            <input type="radio" id="international" name="travel-preference" value="international"
-                                required>
-                        </label>
+                <label>Travel Preference:</label>
+                <div class="radio-group">
+                    <label for="europe">Europe</label>
+                    <input type="radio" id="europe" name="travel-preference" value="europe" required>
 
-                        <label for="both">Both
-                            <input type="radio" id="both" name="travel-preference" value="both" required>
-                        </label>
-                    </div>
-                    <button type="submit" class="submit-btn">Signup</button>
-                </label>
+                    <label for="international">International</label>
+                    <input type="radio" id="international" name="travel-preference" value="international" required>
+
+                    <label for="both">Both</label>
+                    <input type="radio" id="both" name="travel-preference" value="both" required>
+
+                </div>
+                <button type="submit" class="submit-btn">Signup</button>
+
             </form>
         </section>
     </main>
