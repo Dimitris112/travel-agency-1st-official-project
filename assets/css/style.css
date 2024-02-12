@@ -647,7 +647,7 @@ footer p {
     }
 
     #menu>li {
-        margin-bottom: none;
+        margin-bottom: 0;
     }
 
     #navbar-toggle:checked~nav {
@@ -683,7 +683,7 @@ footer p {
     }
 
     #menu>li {
-        margin-bottom: none;
+        margin-bottom: 0;
     }
 
     #navbar-toggle:checked~nav {
@@ -921,7 +921,7 @@ footer p {
 
     #image-gallery {
         column-count: 3;
-        padding-top: 1;
+        padding-top: 20px;
     }
 
     #image-gallery h3 {
