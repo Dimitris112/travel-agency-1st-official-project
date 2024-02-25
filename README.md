@@ -27,7 +27,7 @@ The project utilizes the Lato and Roboto font families for typography, providing
 
 ### Testing
 1. Code Validation
-
+    - [HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdimitris112.github.io%2Ftravel-agency-1st-official-project%2F) & [CSS](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdimitris112.github.io%2Ftravel-agency-1st-official-project%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) validation are both errorless.
 2. Test cases (screenshots)
 
 3. Fixed bugs
