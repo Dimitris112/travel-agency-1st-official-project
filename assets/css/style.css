@@ -663,6 +663,7 @@ footer p {
         margin-bottom: 0;
     }
 
+
     #navbar-toggle:checked~nav {
         display: block;
     }
