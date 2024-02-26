@@ -1,4 +1,5 @@
 # 101 Travelling Agency
+![Responsiveness](validation/responsive.png)
 
 ## Purpose of the project
 The purpose of this project is to create a user-friendly and efficient platform that can manage clients, offers, bookins and being able to travel all over the globe.
@@ -18,7 +19,7 @@ As a visiting user, I would like to signup to 101 travel agency to make bookings
 - Interactive maps and itineraries to assist users in planning their trips more effectively.
 
 ### Typography and color scheme
-The project utilizes the Lato and Roboto font families for typography, providing a clean and modern aesthetic. The color scheme incorporates shades of white, dark blue, and coral, enhancing readability and visual appeal. Used rgba coloring for the box shadows.
+The project utilizes the Lato and Roboto font families for typography, providing a clean and modern aesthetic. The color scheme incorporates shades of white, dark blue, and coral, enhancing readability and visual appeal. Also used rgba coloring for the box shadows.
 
 ### Technology
 - HTML: Structure of web pages.
