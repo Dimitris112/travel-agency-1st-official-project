@@ -81,6 +81,10 @@ nav {
     font-size: 2rem;
 }
 
+.navbar-toggle-btn {
+    color: #fafafa;
+}
+
 /* Main content*/
 main {
     /* Pushes the footer all the way down */
