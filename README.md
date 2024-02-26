@@ -2,15 +2,15 @@
 ![Responsiveness](validation/responsive.png)
 
 ## Purpose of the project
-The purpose of this project is to create a user-friendly and efficient platform that can manage clients, offers, bookins and being able to travel all over the globe.
+The purpose of this project is to create a user-friendly and efficient platform that can manage clients, offers, bookings and being able to travel all over the globe.
 
 ## User Stories
 As a visiting user, I would like to signup to 101 travel agency to make bookings so that I can plan my trip and get discounts on flights, hotels or activities.
 
 ### Features
-- User signup functionality to create an account on the platform.
+- User signup functionality to create an account on the website.
 - Quick navigation through the gallery page using the buttons on the homepage. 
-- Browse destinations feature to explore various travel options.
+![Featured Destinations](validation/FeaturedDestinations.gif)
 - Responsive design to ensure optimal viewing experience across different devices.
 
 #### Future Features
