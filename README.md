@@ -9,8 +9,10 @@ As a visiting user, I would like to signup to 101 travel agency to make bookings
 
 ### Features
 - User signup functionality to create an account on the website.
-- Quick navigation through the gallery page using the buttons on the homepage. 
+- Quick navigation through the gallery page using the buttons on the homepage.
+
 ![Featured Destinations](validation/FeaturedDestinations.gif)
+
 - Responsive design to ensure optimal viewing experience across different devices.
 
 #### Future Features
@@ -38,10 +40,23 @@ The project utilizes the Lato and Roboto font families for typography, providing
 
 ## Deployment
 ### via Gitpod
-### via Github pages
 
+### via Github pages
+- In the *GitHub* repository, navigate to the **Settings** tab.
+
+![settings](validation/settings.png)
+
+- From the *Code and Automation* dropdown menu , select **Pages**.
+
+![pages](validation/pages.png)
+
+- Once you're there , select the *branch* to be **main** and the *folder* to be **/root**. Then 
+click save.
+
+![deployment](validation/deploy1.png)
+
+The live link can be found here - [101 Travelling Agency](https://dimitris112.github.io/travel-agency-1st-official-project/)
 ## Credtis 
-Media 
 
 - [Font Awesome](https://fontawesome.com/) for providing icons used in the project.
 - [Pexels](https://www.pexels.com/) for providing the images in the gallery page and the background video for the signup form.
