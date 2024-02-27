@@ -31,11 +31,23 @@ The project utilizes the Lato and Roboto font families for typography, providing
 ### Testing
 1. Code Validation
     - [HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdimitris112.github.io%2Ftravel-agency-1st-official-project%2F) & [CSS](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdimitris112.github.io%2Ftravel-agency-1st-official-project%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) validation are both errorless.
-2. Test cases (screenshots)
+
+2. Test cases
+- For all metrics I used **Lighthouse** on incognito Chrome to avoid any plugins/extensions interference.
+ - The **index** page passes with three 100 score and only the **Accessibility** on a 90 score. Almost the same goes for the **signup** page too but this time it's full of 100.
+
+![IndexPage](validation/index-metrics.png)      ![SignupPage](validation/signup-metrics.png)
 
 3. Fixed bugs
 
-4. Supported screens and browsers
+
+4. Unfixed bugs
+ - Need to make the gallery page lighter.
+ 
+  ![GalleryPage](validation/gallery-metrics.png)
+
+
+5. Supported screens and browsers
     * The website will be optimized for a wide range of screen sizes and browsers, including Chrome, Firefox and Edge.
 
 ## Deployment
