@@ -71,6 +71,11 @@ The project utilizes the Lato and Roboto font families for typography, providing
 
 3. Fixed bugs
 
+- Fixed the erorr I had on the **Google Maps** section with having the width on 100%. My solution was adding a class above the iframe
+  `<div class="map-container">` and then styling it accordingly to my preference.
+- Fixed some typos preventing me from accessing the images on the **Gallery** page according to the HTML Validator `\ and /`
+- Fixed the gallery page to appear as **grid** instead of flex and have the appearnce I wanted.
+
 4. Unfixed bugs
 
 - Need to make the gallery page lighter.
@@ -81,8 +86,6 @@ The project utilizes the Lato and Roboto font families for typography, providing
    - The website will be optimized for a wide range of screen sizes and browsers, including Chrome, Firefox and Edge.
 
 ## Deployment
-
-### via Gitpod
 
 ### via Github pages
 
