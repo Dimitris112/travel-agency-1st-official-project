@@ -78,9 +78,7 @@ The project utilizes the Lato and Roboto font families for typography, providing
 
 4. Unfixed bugs
 
-- Need to make the gallery page lighter.
 
-![GalleryPage](validation/gallery-metrics.png)
 
 5. Supported screens and browsers
    - The website will be optimized for a wide range of screen sizes and browsers, including Chrome, Firefox and Edge.
