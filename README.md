@@ -87,6 +87,10 @@ The project utilizes the Lato and Roboto font families for typography, providing
 ## Deployment
 ### via Gitpod
 
+- Head over to [Gitpod](https://www.gitpod.io/).
+- Once you're there, click the **Dashboard** button which is on the right side of the page.
+- Later on , click the **New Workspace** button which will open a dropdown menu for you to select the repository of this project [101 travelling agency](https://github.com/Dimitris112/travel-agency-1st-official-project).
+
 ### via Github pages
 
 - In the _GitHub_ repository, navigate to the **Settings** tab.
