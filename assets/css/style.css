@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 
-/* General */
+
 body {
     min-height: 100vh;
     display: flex;
@@ -647,6 +647,7 @@ footer p {
     color: #e44d26;
 }
 
+/* Media query for small / fold phones (279px+)*/
 @media screen and (min-width: 279px) {
 
     /* Header*/
@@ -750,7 +751,7 @@ footer p {
     }
 
     #signup video {
-        position: absolute;
+        position: fixed;
         width: 100%;
         height: 100%;
         object-fit: cover;
@@ -847,27 +848,23 @@ footer p {
 /* Media query: large or landscape phones (576px+) */
 @media screen and (min-width: 576px) {
 
+    /* Header*/
     header {
-        top: 100%;
-        margin-bottom: 10%;
-    }
-
-    body {
-        overflow-x: hidden;
-
-    }
-
-    #signup {
-        padding: 60px 10% 0 10%;
-    }
-
-    #signup h2 {
-        margin-bottom: 3%;
-        font-size: 1.8em;
+        padding: 0 2%;
+        margin-bottom: 2%;
     }
 
     #logo {
-        font-size: 150%;
+        font-size: 120%;
+    }
+
+    #menu {
+        font-size: 90%;
+        letter-spacing: 2px;
+    }
+
+    #navbar-toggle:checked~nav {
+        display: block;
     }
 
     .contact-boxes-container {
@@ -886,25 +883,20 @@ footer p {
         margin: 5%;
     }
 
-    #menu {
-        font-size: 110%;
-        letter-spacing: 4px;
-        list-style-type: none;
-    }
-
-    #menu>li {
-        margin-bottom: 0;
-    }
-
-    #navbar-toggle:checked~nav {
-        display: block;
+    #signup video {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        top: 0;
+        left: 0;
+        z-index: -1;
     }
 
     #image-gallery {
         column-count: 2;
         column-gap: 0;
         padding-top: 30px;
-
     }
 }
 
@@ -960,6 +952,7 @@ footer p {
     /* Featured Destinations */
     #featured-destinations {
         padding: 120px 0;
+        margin-top: -12%;
     }
 
     #featured-destinations h2 {
@@ -986,6 +979,7 @@ footer p {
     /* Testimonials */
     #testimonials {
         padding: 120px 0;
+        margin-top: -12%;
     }
 
     #testimonials h2 {
@@ -1019,6 +1013,16 @@ footer p {
         padding: 80px 10% 0 10%;
     }
 
+    #signup video {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+
     #signup label {
         font-size: 1.6em;
     }
@@ -1030,6 +1034,7 @@ footer p {
     /* Contact */
     #contact {
         padding: 120px 0;
+        margin-top: -12%;
     }
 
     #contact h2 {
@@ -1059,6 +1064,7 @@ footer p {
     #newsletter-section {
         padding: 60px;
         max-width: 800px;
+        margin-top: -12%;
     }
 
     #newsletter-section label {
@@ -1079,7 +1085,7 @@ footer p {
 
     /* Map section */
     #map-wrapper {
-        margin-top: 80px;
+        margin-top: 2%;
     }
 
     /* Gallery */
@@ -1100,6 +1106,8 @@ footer p {
     /* Footer */
     footer p {
         font-size: 1.6em;
+        background: transparent;
+        z-index: 1;
     }
 
     #social-network i {
