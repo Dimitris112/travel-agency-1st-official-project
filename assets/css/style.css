@@ -1133,7 +1133,6 @@ footer p {
         display: none;
     }
 
-
     nav {
         display: block;
         position: static;
@@ -1141,8 +1140,6 @@ footer p {
         width: auto;
         box-shadow: none;
     }
-
-
 
     nav ul {
         display: inline-block;
@@ -1153,6 +1150,17 @@ footer p {
     nav li {
         display: inline-block;
         margin-left: 20px;
+    }
+
+    #hero,
+    #featured-destinations,
+    #contact,
+    #newsletter {
+        margin-bottom: 6%;
+    }
+
+    #signup h2 {
+        padding-right: 70px;
     }
 
     #image-gallery {
@@ -1176,9 +1184,5 @@ footer p {
 
     .map-container {
         padding-bottom: 18%;
-    }
-
-    #signup h2 {
-        padding-right: 70px;
     }
 }
