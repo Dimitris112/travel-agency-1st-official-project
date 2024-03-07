@@ -48,12 +48,13 @@ As a visiting user, I would like to signup to 101 travelling agency to make book
 
 ### Typography and color scheme
 
-The project utilizes the Lato and Roboto font families for typography, providing a clean and modern aesthetic. The color scheme incorporates shades of white, dark blue, and coral, enhancing readability and visual appeal. Also used rgba coloring for the box shadows.
+The project utilizes the Lato and Roboto font families for typography, providing a clean and modern aesthetic. The color scheme incorporates shades of white, dark blue, and coral, enhancing readability and visual appeal.
 
 ### Technology
 
 - HTML: Structure of web pages.
 - CSS: Styling and design of web pages, including colors and hover effects.
+- [Font Awesome](https://fontawesome.com/) : Icons to make the HTML look more appealing. 
 - JavaScript (Future Implementation): Enhancing interactivity and user experience.
 
 ### Testing
@@ -74,7 +75,7 @@ The project utilizes the Lato and Roboto font families for typography, providing
 - Fixed the erorr I had on the **Google Maps** section with having the width on 100%. My solution was adding a class above the iframe
   `<div class="map-container">` and then styling it accordingly to my preference.
 - Fixed some typos preventing me from accessing the images on the **Gallery** page according to the HTML Validator `\ and /`
-- Fixed the gallery page to appear as **grid** instead of flex and have the appearnce I wanted.
+- Fixed the gallery page to appear as **grid** instead of flex and have the appearance I wanted.
 
 4. Unfixed bugs
 
@@ -84,6 +85,7 @@ The project utilizes the Lato and Roboto font families for typography, providing
    - The website will be optimized for a wide range of screen sizes and browsers, including Chrome, Firefox and Edge.
 
 ## Deployment
+### via Gitpod
 
 ### via Github pages
 

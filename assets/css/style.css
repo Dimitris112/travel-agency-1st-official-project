@@ -291,7 +291,7 @@ main {
 
 #signup h2 {
     color: white;
-    margin-bottom: 20px;
+    margin-bottom: 6%;
     font-size: 2em;
     text-align: center;
     text-shadow: 2px 2px 4px #00000080;
@@ -299,10 +299,10 @@ main {
 
 #signup-form {
     color: #ffffff;
-    padding: 40px;
+    padding: 6%;
     border-radius: 10px;
     background-color: #3C3C3C80;
-    font-size: 1em;
+    font-size: 1.2em;
     box-shadow: 0 0 20px #00000033;
 }
 
@@ -647,15 +647,243 @@ footer p {
     color: #e44d26;
 }
 
+@media screen and (min-width: 279px) {
+
+    /* Header*/
+    header {
+        padding: 0 2%;
+        margin-bottom: 2%;
+    }
+
+    #logo {
+        font-size: 120%;
+    }
+
+    #menu {
+        font-size: 90%;
+        letter-spacing: 2px;
+    }
+
+    #navbar-toggle:checked~nav {
+        display: block;
+    }
+
+    /* Hero Section*/
+    #hero {
+        padding: 15% 5% 5%;
+        text-align: center;
+        color: #e44d26;
+        margin-top: 4%;
+    }
+
+    #hero h2 {
+        font-size: 2.5em;
+    }
+
+    #hero p {
+        font-size: 1.2em;
+    }
+
+    #hero .cta-button {
+        font-size: 1.2em;
+        padding: 5% 10%;
+    }
+
+    /* Featured Destinations*/
+    #featured-destinations {
+        padding: 3%;
+    }
+
+    #featured-destinations h2 {
+        font-size: 2em;
+    }
+
+    .destination {
+        max-width: 250px;
+    }
+
+    .destination h3 {
+        font-size: 1.5em;
+    }
+
+    .destination p {
+        font-size: 1em;
+    }
+
+    .destination a {
+        padding: 5% 10%;
+        font-size: 1em;
+    }
+
+    /* Testimonials*/
+    #testimonials {
+        padding: 3%;
+    }
+
+    #testimonials h2 {
+        font-size: 2em;
+        margin-bottom: 3%;
+    }
+
+    .testimonial {
+        max-width: 500px;
+        margin: 0 auto 4%;
+        padding: 2%;
+    }
+
+    .testimonial p {
+        font-size: 1.2em;
+        margin-bottom: 2%;
+    }
+
+    .testimonial .author {
+        font-size: 1.2em;
+    }
+
+    /* Signup Form*/
+    #signup {
+        padding: 20% 5% 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #signup video {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+
+    #signup h2 {
+        margin-bottom: 4%;
+        font-size: 1.5em;
+    }
+
+    #signup label {
+        font-size: 1em;
+    }
+
+    #signup .radio-group {
+        font-size: 60%;
+    }
+
+    /* Contact*/
+    #contact {
+        padding: 3%;
+    }
+
+    #contact h2 {
+        font-size: 2em;
+        margin-bottom: 4%;
+    }
+
+    .contact-box-container {
+        margin-top: 3%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .contact-box-left,
+    .contact-box-right,
+    .contact-box-center {
+        max-width: 350px;
+        margin: 20px auto;
+        padding: 20px;
+        border-radius: 15px;
+        background-color: #fff;
+        box-shadow: 0 0 15px #00000033;
+        text-align: center;
+    }
+
+    .contact-box-container table {
+        width: 100%;
+        margin-top: 2%;
+        border-collapse: collapse;
+        table-layout: fixed;
+
+    }
+
+    .contact-box-container th,
+    .contact-box-container td {
+        word-wrap: break-word;
+        white-space: normal;
+    }
+
+    /* Newsletter*/
+    #newsletter-section {
+        margin: 20px auto;
+        padding: 30px;
+        max-width: 600px;
+        text-align: center;
+        background: transparent;
+        border-radius: 10px;
+        color: #ff6347;
+    }
+
+    #newsletter-section label {
+        font-size: 1.2em;
+        margin-bottom: 2%;
+    }
+
+    #newsletter-section input[type="email"] {
+        padding: 2%;
+        width: 100%;
+        margin-bottom: 2%;
+    }
+
+    /* Google maps*/
+    #map-wrapper {
+        margin-top: 4%;
+    }
+}
+
+
 /* Media query: large or landscape phones (576px+) */
-@media screen and (min-width: 576px) and (max-width:575px) {
+@media screen and (min-width: 576px) {
 
     header {
         top: 100%;
+        margin-bottom: 10%;
     }
 
-    #contact>.contact-box-container {
-        text-align: center;
+    body {
+        overflow-x: hidden;
+
+    }
+
+    #signup {
+        padding: 60px 10% 0 10%;
+    }
+
+    #signup h2 {
+        margin-bottom: 3%;
+        font-size: 1.8em;
+    }
+
+    #logo {
+        font-size: 150%;
+    }
+
+    .contact-boxes-container {
+        margin-top: 6%;
+        justify-content: center;
+    }
+
+    .contact-box-container table {
+        margin: auto;
+    }
+
+    .contact-box-left,
+    .contact-box-right,
+    .contact-box-center {
+        max-width: 350px;
+        margin: 5%;
     }
 
     #menu {
@@ -667,7 +895,6 @@ footer p {
     #menu>li {
         margin-bottom: 0;
     }
-
 
     #navbar-toggle:checked~nav {
         display: block;
