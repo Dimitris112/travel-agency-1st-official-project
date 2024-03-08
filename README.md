@@ -66,7 +66,7 @@ The project utilizes the Lato and Roboto font families for typography, providing
 2. Test cases
 
 - For all metrics I used **Lighthouse** on incognito Chrome devtools to avoid any plugins/extensions interference.
-- The **index** page passes with three 100 score and only the **Accessibility** on a 90 score.
+- The **index** page passes with three 100 score and only the **Accessibility** on a 95 score.
 
 ![IndexPage](validation/index-metrics.png)
 
