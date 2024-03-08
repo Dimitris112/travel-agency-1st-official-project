@@ -1154,9 +1154,9 @@ footer p {
 
     #hero,
     #featured-destinations,
-    #contact,
+    #testimonials, #contact,
     #newsletter {
-        margin-bottom: 6%;
+        margin-bottom: 10%;
     }
 
     #signup h2 {
