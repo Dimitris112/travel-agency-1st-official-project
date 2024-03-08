@@ -106,7 +106,7 @@ The project utilizes the Lato and Roboto font families for typography, providing
 
 ![deployment](validation/deploy1.png)
 
-## Credtis
+## Credits
 
 - [Font Awesome](https://fontawesome.com/) for providing icons used in the project.
 - [Pexels](https://www.pexels.com/) for providing the images in the gallery page and the background video for the signup form.
